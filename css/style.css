@@ -122,10 +122,6 @@ to {
 	background: #fff;
 }
 
-
-@media only screen and (max-width:768px) {
-
-}
 .border {
 	height: 4px;
 	width:40px;
@@ -164,6 +160,9 @@ to {
     padding-top:60px;
     padding-bottom: 20px;
     position: relative;
+}
+.card2::after{
+    content: ' ';
 }
 .font-size{
     font-size: 15px;
